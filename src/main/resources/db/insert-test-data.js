@@ -1,11 +1,11 @@
 // Database connection
 conn = new Mongo()
-db = conn.getDB("darts-matcher")
+db = conn.getDB("darts-matcher-legacy")
 
 // ========================= CLIENT DETAILS =========================
 
 // Insert Client Details (clientSecret = secret)
-clientDetailsResult = db.client_details.insert([
+clientDetailsResult = db.client_details.insertMany([
     {
         "clientId": "darts-matcher-dev",
         "clientSecret": "$2a$12$o3dmbF3ElqPL1ApJ.9R/Qu7cVBMyV8pn80.HPFPdKO/jerqGJiXZe",
@@ -44,6 +44,7 @@ usersResult = db.users.insert([
         "lastName": "Doe",
         "email": "johndoe@email.com",
         "password": "$2a$12$o3dmbF3ElqPL1ApJ.9R/Qu7cVBMyV8pn80.HPFPdKO/jerqGJiXZe",
+        "friends": [],
         "_class": "User"
     },
     {
@@ -53,6 +54,7 @@ usersResult = db.users.insert([
         "lastName": "Doe",
         "email": "janedoe@email.com",
         "password": "$2a$12$o3dmbF3ElqPL1ApJ.9R/Qu7cVBMyV8pn80.HPFPdKO/jerqGJiXZe",
+        "friends": [],
         "_class": "User"
     }
 ])

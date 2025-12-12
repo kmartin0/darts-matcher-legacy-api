@@ -11,8 +11,8 @@
     <groupId>com.dartsmatcher</groupId>
     <artifactId>darts-matcher-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>darts-matcher-api</name>
-    <description>Api for the Darts Matcher app</description>
+    <name>darts-matcher-legacy-api</name>
+    <description>Api for the Legacy Darts Matcher app</description>
     <properties>
         <java.version>1.8</java.version>
         <oauth2.autoconfigure.version>2.4.2</oauth2.autoconfigure.version>

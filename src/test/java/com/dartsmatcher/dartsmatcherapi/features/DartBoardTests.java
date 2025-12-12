@@ -1,10 +1,10 @@
 package com.dartsmatcher.dartsmatcherapi.features;
 
-import com.dartsmatcher.dartsmatcherapi.features.dartboard.Dart;
-import com.dartsmatcher.dartsmatcherapi.features.dartboard.DartBoard;
-import com.dartsmatcher.dartsmatcherapi.features.dartboard.DartBoardSectionArea;
-import com.dartsmatcher.dartsmatcherapi.utils.CartesianCoordinate;
-import com.dartsmatcher.dartsmatcherapi.utils.PolarCoordinate;
+import com.dartsmatcher.legacy.features.dartboard.Dart;
+import com.dartsmatcher.legacy.features.dartboard.DartBoard;
+import com.dartsmatcher.legacy.features.dartboard.DartBoardSectionArea;
+import com.dartsmatcher.legacy.utils.CartesianCoordinate;
+import com.dartsmatcher.legacy.utils.PolarCoordinate;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

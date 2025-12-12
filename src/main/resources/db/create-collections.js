@@ -1,6 +1,6 @@
 // Database connection
 conn = new Mongo()
-db = conn.getDB("darts-matcher")
+db = conn.getDB("darts-matcher-legacy")
 
 /*=================================================================
 ========================= CLIENT DETAILS ==========================
@@ -10,7 +10,7 @@ db = conn.getDB("darts-matcher")
 db.createCollection("client_details")
 
 // Create unique indexes
-db.client_details.createIndex({"client_id": 1}, {unique: true})
+db.client_details.createIndex({"clientId": 1}, {unique: true})
 
 /*=================================================================
 ============================== USERS ==============================
@@ -35,6 +35,11 @@ db.createCollection("password_tokens")
 
 // Create unique indexes
 db.password_tokens.createIndex({"token": 1}, {unique: true})
+
+/*=================================================================
+========================= FRIEND REQUESTS =========================
+=================================================================*/
+db.createCollection("friend_requests")
 
 /*=================================================================
 ============================= MATCHES =============================

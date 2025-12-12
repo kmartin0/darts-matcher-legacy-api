@@ -1,6 +1,6 @@
 package com.dartsmatcher.dartsmatcherapi.validators;
 
-import com.dartsmatcher.dartsmatcherapi.validators.nowhitespace.NoWhitespaceValidator;
+import com.dartsmatcher.legacy.validators.nowhitespace.NoWhitespaceValidator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

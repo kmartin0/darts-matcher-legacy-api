@@ -1,7 +1,7 @@
 package com.dartsmatcher.dartsmatcherapi.utils;
 
 
-import com.dartsmatcher.dartsmatcherapi.config.JacksonConfig;
+import com.dartsmatcher.legacy.config.JacksonConfig;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.bson.types.ObjectId;

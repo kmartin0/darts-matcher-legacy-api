@@ -1,14 +1,14 @@
 version: "3"
 services:
-  darts-matcher-api:
+  darts-matcher-legacy-api:
     restart: always
-    image: darts-matcher-api
-    container_name: darts-matcher-api
+    image: darts-matcher-legacy-api
+    container_name: darts-matcher-legacy-api
     build:
       context: .
     environment:
       - SPRING_PROFILES_ACTIVE=prod
-      - DB_URI=mongodb://localhost:27017/darts-matcher
+      - DB_URI=mongodb://localhost:27017/darts-matcher-legacy
       - JWK_KEYSTORE_ALIAS=darts-matcher-alias
       - JWK_KEYSTORE_PASS=secret
       - JWK_KEYSTORE_PATH=classpath:keystore/darts-matcher-dev-jwk.jks

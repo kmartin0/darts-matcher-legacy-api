@@ -1,6 +1,6 @@
-# Darts Matcher Api
+# Darts Matcher Legacy Api
 
-Api for Parcel Organizer platform made using Spring Boot.
+Deprecated Api for the legacy Darts Matcher platform made using Spring Boot.
 
 ## Features
 - Authenticate and register users

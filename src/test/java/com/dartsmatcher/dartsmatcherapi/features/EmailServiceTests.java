@@ -1,10 +1,10 @@
 package com.dartsmatcher.dartsmatcherapi.features;
 
-import com.dartsmatcher.dartsmatcherapi.config.LocaleConfig;
-import com.dartsmatcher.dartsmatcherapi.features.email.EmailServiceImpl;
-import com.dartsmatcher.dartsmatcherapi.features.user.User;
-import com.dartsmatcher.dartsmatcherapi.features.user.password.reset.PasswordToken;
-import com.dartsmatcher.dartsmatcherapi.utils.MessageResolver;
+import com.dartsmatcher.legacy.config.LocaleConfig;
+import com.dartsmatcher.legacy.features.email.EmailServiceImpl;
+import com.dartsmatcher.legacy.features.user.User;
+import com.dartsmatcher.legacy.features.user.password.reset.PasswordToken;
+import com.dartsmatcher.legacy.utils.MessageResolver;
 import org.bson.types.ObjectId;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

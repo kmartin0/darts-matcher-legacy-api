@@ -1,6 +1,7 @@
 package com.dartsmatcher.dartsmatcherapi.utils;
 
-import com.dartsmatcher.dartsmatcherapi.config.LocaleConfig;
+import com.dartsmatcher.legacy.config.LocaleConfig;
+import com.dartsmatcher.legacy.utils.MessageResolver;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -68,4 +69,3 @@ class MessageResolverTests {
 	}
 
 }
-
