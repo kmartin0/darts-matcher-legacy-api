@@ -22,7 +22,7 @@ public class CorsConfig {
 				Arrays.asList(
 						"http://localhost:4200",
 						"http://jxy.me",
-						"https://api.legacy.dartsmatcher.kmartin.nl"
+						"https://legacy.dartsmatcher.kmartin.nl"
 				)
 		);
 		config.addAllowedHeader("*");
